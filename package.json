@@ -1,0 +1,29 @@
+{
+  "name": "api-test",
+  "version": "1.0.0",
+  "description": "1. International Showtimes Backend Test Task",
+  "main": "src/app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node",
+    "dev": "nodemon"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "axios": "^0.23.0",
+    "bcryptjs": "^2.4.3",
+    "cheerio": "^1.0.0-rc.10",
+    "connect-redis": "^6.0.0",
+    "cors": "^2.8.5",
+    "cross-fetch": "^3.1.4",
+    "dotenv": "^10.0.0",
+    "express": "^4.17.1",
+    "express-session": "^1.17.2",
+    "mongoose": "^6.0.12",
+    "morgan": "^1.10.0",
+    "redis": "^3.1.2",
+    "winston": "^3.3.3"
+  }
+}
